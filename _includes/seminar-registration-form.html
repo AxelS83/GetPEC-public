@@ -1,7 +1,8 @@
 <form class="seminar-form"
       id="seminar-registration-form"
-      action="https://formspree.io/f/xeewkyov"
-      method="POST">
+      data-endpoint="https://formspree.io/f/xeewkyov"
+      method="POST"
+      novalidate>
 
   <!-- Honeypot Spam-Schutz -->
   <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
@@ -228,20 +229,26 @@
 (function() {
   var form = document.getElementById('seminar-registration-form');
   if (!form) return;
+  var endpoint = form.getAttribute('data-endpoint');
+  var confirmUrl = '{{ "/anmeldung/bestaetigung/" | absolute_url }}';
   form.addEventListener('submit', function(e) {
     e.preventDefault();
     var btn = form.querySelector('[type="submit"]');
     var errEl = document.getElementById('seminar-form-error');
+    if (!form.checkValidity()) {
+      form.reportValidity();
+      return;
+    }
     btn.disabled = true;
     btn.textContent = 'Wird gesendet …';
     errEl.style.display = 'none';
-    fetch(form.action, {
+    fetch(endpoint, {
       method: 'POST',
       body: new FormData(form),
       headers: { 'Accept': 'application/json' }
     }).then(function(res) {
       if (res.ok) {
-        window.location.href = '{{ '/anmeldung/bestaetigung/' | relative_url }}';
+        window.location.replace(confirmUrl);
       } else {
         btn.disabled = false;
         btn.textContent = 'Verbindlich anmelden';
