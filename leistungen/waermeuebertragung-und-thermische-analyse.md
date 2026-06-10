@@ -56,7 +56,7 @@ Sieden und Kondensation sind für die Kälte- und Wärmetechnik sowie zur Kühlu
 
 ### Experimentelle Charakterisierung
 
-Für Anwendungen, bei denen analytische Methoden an ihre Grenzen stoßen, bietet GetPEC experimentelle Charakterisierung des Wärmeübergangs an – auch unter Einsatz von IR-Thermographie für hochaufgelöste lokale Wärmeübergangskoeffizienten. Mehr dazu: [IR-Thermographie](/leistungen/ir-thermographie/).
+Für Anwendungen, bei denen analytische Methoden an ihre Grenzen stoßen, bietet GetPEC experimentelle Charakterisierung des Wärmeübergangs an – auch unter Einsatz von IR-Thermographie für hochaufgelöste lokale Wärmeübergangskoeffizienten. Mehr dazu: [IR-Thermographie]({{ '/leistungen/ir-thermographie/' | relative_url }}).
 
 ### Thermische Systemanalyse
 

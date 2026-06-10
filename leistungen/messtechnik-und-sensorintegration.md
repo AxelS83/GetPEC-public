@@ -44,7 +44,7 @@ Für jede Messaufgabe gibt es geeignete und weniger geeignete Sensorkonzepte. Ge
 
 ### Miniaturisierung und Sondenfertigung
 
-Für anspruchsvolle Messaufgaben in engen Geometrien oder Strömungskanälen reichen Standard-Sensoren oft nicht aus. GetPEC hat Erfahrung in der Entwicklung und Fertigung miniaturisierter Thermoelemente mit extrem kleinen Durchmessern für sehr kurze Ansprechzeiten und minimale Strömungsbeeinflussung. Sehen Sie dazu unser [Projektbeispiel: Mikrothermoelemente](/projektbeispiele/mikrothermoelemente/).
+Für anspruchsvolle Messaufgaben in engen Geometrien oder Strömungskanälen reichen Standard-Sensoren oft nicht aus. GetPEC hat Erfahrung in der Entwicklung und Fertigung miniaturisierter Thermoelemente mit extrem kleinen Durchmessern für sehr kurze Ansprechzeiten und minimale Strömungsbeeinflussung. Sehen Sie dazu unsere [Projektbeispiele]({{ '/projektbeispiele/' | relative_url }}).
 
 ### Kalibrierung
 

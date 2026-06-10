@@ -68,4 +68,4 @@ Nach Aufbau und Verdrahtung validieren wir den Prüfstand sorgfältig. Wir weise
 
 Auch nach der Übergabe stehen wir für Fragen, Erweiterungen und Wartungsthemen zur Verfügung.
 
-Sehen Sie sich unser [Projektbeispiel: Prüfstand für fluiddurchströmte Bauteile](/projektbeispiele/pruefstand-fluiddurchstroemte-bauteile/) an.
+Sehen Sie sich unsere [Projektbeispiele]({{ '/projektbeispiele/' | relative_url }}) an.

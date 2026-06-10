@@ -66,4 +66,4 @@ GetPEC erstellt technische Gutachten und Stellungnahmen zu thermodynamischen Fra
 
 ### Mitarbeiterschulungen und Trainings
 
-Neben der projektbezogenen Beratung bieten wir auch inhouse Schulungen und Workshops für Ihr Team an. Für öffentliche Kurse besuchen Sie unsere [Kursseite](/kurse/).
+Neben der projektbezogenen Beratung bieten wir auch inhouse Schulungen und Workshops für Ihr Team an. Für öffentliche Kurse besuchen Sie unsere [Kursseite]({{ '/kurse/' | relative_url }}).

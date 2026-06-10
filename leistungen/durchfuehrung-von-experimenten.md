@@ -51,4 +51,4 @@ Nicht jede Messaufgabe endet an der eigenen Labortür. Für ergänzende Prüfung
 
 ### Auswertung und Bewertung
 
-Entscheidend ist nicht nur das Messen selbst, sondern die belastbare Interpretation. Wir bereiten Messdaten auf, prüfen Plausibilität und Unsicherheiten und bewerten die Ergebnisse im Kontext Ihrer Anwendung. Bei Bedarf verknüpfen wir die Messung mit [thermischer Analyse](/leistungen/waermeuebertragung-und-thermische-analyse/), [Messtechnik und Sensorintegration](/leistungen/messtechnik-und-sensorintegration/) oder [IR-Thermographie](/leistungen/ir-thermographie/).
+Entscheidend ist nicht nur das Messen selbst, sondern die belastbare Interpretation. Wir bereiten Messdaten auf, prüfen Plausibilität und Unsicherheiten und bewerten die Ergebnisse im Kontext Ihrer Anwendung. Bei Bedarf verknüpfen wir die Messung mit [thermischer Analyse]({{ '/leistungen/waermeuebertragung-und-thermische-analyse/' | relative_url }}), [Messtechnik und Sensorintegration]({{ '/leistungen/messtechnik-und-sensorintegration/' | relative_url }}) oder [IR-Thermographie]({{ '/leistungen/ir-thermographie/' | relative_url }}).

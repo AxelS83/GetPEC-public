@@ -1,12 +1,12 @@
 <form class="seminar-form"
       id="seminar-registration-form"
-      data-endpoint="https://formspree.io/f/xeewkyov"
-      method="POST"
-      novalidate>
+      action="https://formspree.io/f/xeewkyov"
+      method="POST">
 
   <!-- Honeypot Spam-Schutz -->
   <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
   <input type="hidden" name="_subject" value="Seminaranmeldung: Grundlagen der Wärmeübertragung">
+  <input type="hidden" name="_next" value="{{ '/anmeldung/bestaetigung/' | absolute_url }}">
 
   <!-- Kursauswahl -->
   <fieldset class="form-fieldset">
@@ -229,20 +229,13 @@
 (function() {
   var form = document.getElementById('seminar-registration-form');
   if (!form) return;
-  var endpoint = form.getAttribute('data-endpoint');
   var confirmUrl = '{{ "/anmeldung/bestaetigung/" | absolute_url }}';
   form.addEventListener('submit', function(e) {
     e.preventDefault();
     var btn = form.querySelector('[type="submit"]');
-    var errEl = document.getElementById('seminar-form-error');
-    if (!form.checkValidity()) {
-      form.reportValidity();
-      return;
-    }
     btn.disabled = true;
     btn.textContent = 'Wird gesendet …';
-    errEl.style.display = 'none';
-    fetch(endpoint, {
+    fetch(form.action, {
       method: 'POST',
       body: new FormData(form),
       headers: { 'Accept': 'application/json' }
@@ -250,14 +243,10 @@
       if (res.ok) {
         window.location.replace(confirmUrl);
       } else {
-        btn.disabled = false;
-        btn.textContent = 'Verbindlich anmelden';
-        errEl.style.display = 'block';
+        form.submit();
       }
     }).catch(function() {
-      btn.disabled = false;
-      btn.textContent = 'Verbindlich anmelden';
-      errEl.style.display = 'block';
+      form.submit();
     });
   });
 })();
