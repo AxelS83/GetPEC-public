@@ -1,11 +1,11 @@
 <form class="seminar-form"
+      id="seminar-registration-form"
       action="https://formspree.io/f/xeewkyov"
       method="POST">
 
   <!-- Honeypot Spam-Schutz -->
   <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
   <input type="hidden" name="_subject" value="Seminaranmeldung: Grundlagen der Wärmeübertragung">
-  <input type="hidden" name="_next" value="{{ '/anmeldung/bestaetigung/' | absolute_url }}">
 
   <!-- Kursauswahl -->
   <fieldset class="form-fieldset">
@@ -217,6 +217,41 @@
   <div class="form-submit">
     <p class="required-note"><span class="required-marker" aria-hidden="true">*</span> Pflichtfeld</p>
     <button type="submit" class="btn btn-primary btn-large">Verbindlich anmelden</button>
+    <p class="form-error-message" id="seminar-form-error" style="display:none;color:var(--color-error,#c0392b);margin-top:1rem">
+      Leider ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut oder schreiben Sie uns direkt an <a href="mailto:info@getpec.de">info@getpec.de</a>.
+    </p>
   </div>
 
 </form>
+
+<script>
+(function() {
+  var form = document.getElementById('seminar-registration-form');
+  if (!form) return;
+  form.addEventListener('submit', function(e) {
+    e.preventDefault();
+    var btn = form.querySelector('[type="submit"]');
+    var errEl = document.getElementById('seminar-form-error');
+    btn.disabled = true;
+    btn.textContent = 'Wird gesendet …';
+    errEl.style.display = 'none';
+    fetch(form.action, {
+      method: 'POST',
+      body: new FormData(form),
+      headers: { 'Accept': 'application/json' }
+    }).then(function(res) {
+      if (res.ok) {
+        window.location.href = '{{ '/anmeldung/bestaetigung/' | relative_url }}';
+      } else {
+        btn.disabled = false;
+        btn.textContent = 'Verbindlich anmelden';
+        errEl.style.display = 'block';
+      }
+    }).catch(function() {
+      btn.disabled = false;
+      btn.textContent = 'Verbindlich anmelden';
+      errEl.style.display = 'block';
+    });
+  });
+})();
+</script>
