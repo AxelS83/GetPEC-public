@@ -1,7 +1,7 @@
 title: "GetPEC mbH – Thermische Messtechnik und thermodynamische Beratung"
 description: "GetPEC entwickelt kundenspezifische Prüfstände, thermische Messtechnik und thermodynamische Analysen für Forschung, Entwicklung und industrielle Spezialanwendungen."
-url: "https://www.getpec.de"
-baseurl: ""
+url: "https://axels83.github.io"
+baseurl: "/GetPEC-public"
 lang: de
 author:
   name: GetPEC mbH
