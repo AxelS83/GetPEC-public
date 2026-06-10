@@ -48,7 +48,7 @@ layout: default
         {% endif %}
         <p class="price-note">{{ page.price_note }}</p>
       </div>
-      <a href="/anmeldung/" class="btn btn-primary btn-large">Jetzt anmelden</a>
+      <a href="{{ '/anmeldung/' | relative_url }}" class="btn btn-primary btn-large">Jetzt anmelden</a>
       {% if page.flyer_url %}
       <a href="{{ page.flyer_url | relative_url }}" class="btn btn-secondary-outline btn-large" target="_blank" rel="noopener" style="margin-left:1rem">Flyer herunterladen</a>
       {% endif %}
@@ -67,7 +67,7 @@ layout: default
         <h2>Jetzt einen Platz sichern</h2>
         <p>Termin: {{ page.course_date }} &nbsp;|&nbsp; Präsenz: {{ page.price_presence }}{% if page.price_online %} &nbsp;|&nbsp; Online: {{ page.price_online }}{% endif %}</p>
         <p class="cta-note">{{ page.price_note }}</p>
-        <a href="/anmeldung/" class="btn btn-primary btn-large">Zur Anmeldung</a>
+        <a href="{{ '/anmeldung/' | relative_url }}" class="btn btn-primary btn-large">Zur Anmeldung</a>
         {% if page.flyer_url %}
         <a href="{{ page.flyer_url | relative_url }}" class="btn btn-secondary-outline btn-large">Flyer herunterladen</a>
         {% endif %}

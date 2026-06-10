@@ -49,7 +49,7 @@ permalink: /leistungen/
     <div class="cta-box">
       <h2>Ihr Projekt besprechen</h2>
       <p>Teilen Sie uns Ihre Fragestellung mit. Wir melden uns zeitnah und besprechen, wie GetPEC Sie unterstützen kann.</p>
-      <a href="/kontakt/" class="btn btn-primary btn-large">Anfrage stellen</a>
+      <a href="{{ '/kontakt/' | relative_url }}" class="btn btn-primary btn-large">Anfrage stellen</a>
     </div>
   </div>
 </section>

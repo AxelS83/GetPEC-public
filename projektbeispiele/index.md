@@ -27,8 +27,8 @@ permalink: /projektbeispiele/
     <h2 class="section-title">Ihr Projekt anfragen</h2>
     <p class="section-subtitle">Sie haben eine ähnliche Aufgabenstellung oder suchen nach einer individuellen Lösung? Sprechen Sie uns an – wir besprechen Ihre Anforderungen gerne unverbindlich.</p>
     <div class="text-center">
-      <a href="/kontakt/" class="btn btn-primary btn-large">Anfrage stellen</a>
-      <a href="/leistungen/" class="btn btn-outline" style="margin-left:1rem">Alle Leistungen</a>
+      <a href="{{ '/kontakt/' | relative_url }}" class="btn btn-primary btn-large">Anfrage stellen</a>
+      <a href="{{ '/leistungen/' | relative_url }}" class="btn btn-outline" style="margin-left:1rem">Alle Leistungen</a>
     </div>
   </div>
 </section>

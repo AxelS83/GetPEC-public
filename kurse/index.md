@@ -31,7 +31,7 @@ permalink: /kurse/
       <p>
         <a href="{{ course.url | relative_url }}" class="btn btn-primary">Zum Kurs</a>
         &nbsp;
-        <a href="/anmeldung/" class="btn btn-outline">Jetzt anmelden</a>
+        <a href="{{ '/anmeldung/' | relative_url }}" class="btn btn-outline">Jetzt anmelden</a>
       </p>
     </div>
     {% endfor %}

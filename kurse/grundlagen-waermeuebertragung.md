@@ -34,8 +34,8 @@ Der Kurs richtet sich an technische Fach- und Führungskräfte, die in Entwicklu
 | **Abschluss** | Inklusive Zertifikat zum Kursabschluss |
 {: .tech-specs-table}
 
-<a href="/assets/downloads/flyer-grundlagen-waermeuebertragung.pdf" class="btn btn-outline">Flyer als PDF herunterladen</a>
-<a href="/anmeldung/" class="btn btn-primary" style="margin-left:1rem">Jetzt anmelden</a>
+<a href="{{ '/assets/downloads/flyer-grundlagen-waermeuebertragung.pdf' | relative_url }}" class="btn btn-outline">Flyer als PDF herunterladen</a>
+<a href="{{ '/anmeldung/' | relative_url }}" class="btn btn-primary" style="margin-left:1rem">Jetzt anmelden</a>
 
 ---
 
@@ -143,7 +143,7 @@ Nach dem Kurs können Sie:
 <div class="team-grid" style="margin-top:1.5rem">
   <div class="team-card">
     <div class="team-card-image">
-      <img src="/assets/images/team/sielaff_neu.jpg" alt="Dr. Axel Sielaff" loading="lazy" width="480" height="360">
+      <img src="{{ '/assets/images/team/sielaff_neu.jpg' | relative_url }}" alt="Dr. Axel Sielaff" loading="lazy" width="480" height="360">
     </div>
     <div class="team-card-body">
       <h3 class="team-card-name">Dr. Axel Sielaff</h3>
@@ -154,7 +154,7 @@ Nach dem Kurs können Sie:
 
   <div class="team-card">
     <div class="team-card-image">
-      <img src="/assets/images/team/freystein_neu.jpg" alt="Dr. Martin Freystein" loading="lazy" width="480" height="360">
+      <img src="{{ '/assets/images/team/freystein_neu.jpg' | relative_url }}" alt="Dr. Martin Freystein" loading="lazy" width="480" height="360">
     </div>
     <div class="team-card-body">
       <h3 class="team-card-name">Dr. Martin Freystein</h3>
@@ -165,7 +165,7 @@ Nach dem Kurs können Sie:
 
   <div class="team-card">
     <div class="team-card-image">
-      <img src="/assets/images/team/stephan_neu.jpg" alt="Prof. Dr. Peter Stephan" loading="lazy" width="480" height="360">
+      <img src="{{ '/assets/images/team/stephan_neu.jpg' | relative_url }}" alt="Prof. Dr. Peter Stephan" loading="lazy" width="480" height="360">
     </div>
     <div class="team-card-body">
       <h3 class="team-card-name">Prof. Dr. Peter Stephan</h3>
@@ -175,7 +175,7 @@ Nach dem Kurs können Sie:
   </div>
 </div>
 <br>
-<a href="/team/" class="btn btn-primary btn-large">Zu unserem Team</a>
+<a href="{{ '/team/' | relative_url }}" class="btn btn-primary btn-large">Zu unserem Team</a>
 
 ---
 
@@ -197,7 +197,7 @@ Der Kurs behandelt auch IT-Methoden für Berechnungen und die Frage, wie KI sinn
 Ja. Alle Teilnehmenden erhalten eine Teilnahmebescheinigung von GetPEC mbH.
 
 **Was passiert, wenn ich kurzfristig absagen muss?**
-Bitte beachten Sie unsere [Allgemeinen Teilnahmebedingungen](/agb-seminare/). Bis 6 Wochen vor Kursbeginn ist eine kostenlose Stornierung möglich. Alternativ kann jederzeit ein Ersatzteilnehmender benannt werden.
+Bitte beachten Sie unsere [Allgemeinen Teilnahmebedingungen]({{ '/agb-seminare/' | relative_url }}). Bis 6 Wochen vor Kursbeginn ist eine kostenlose Stornierung möglich. Alternativ kann jederzeit ein Ersatzteilnehmender benannt werden.
 
 **Gibt es eine Möglichkeit, den Kurs als Inhouse-Schulung zu buchen?**
 Ja. Sprechen Sie uns an – wir führen diesen und andere Kurse auch als maßgeschneiderte Inhouse-Schulungen durch.
@@ -208,5 +208,5 @@ Ja. Sprechen Sie uns an – wir führen diesen und andere Kurse auch als maßges
 
 Sichern Sie sich Ihren Platz für den **16.–17. November 2026** – als Präsenzteilnahme in Darmstadt.
 
-<a href="/anmeldung/" class="btn btn-primary btn-large">Zur Anmeldung</a>
-<a href="/agb-seminare/" class="btn btn-outline" style="margin-left:1rem">Teilnahmebedingungen</a><a href="/assets/downloads/flyer-grundlagen-waermeuebertragung.pdf" class="btn btn-outline" style="margin-left:1rem">Flyer herunterladen</a>
+<a href="{{ '/anmeldung/' | relative_url }}" class="btn btn-primary btn-large">Zur Anmeldung</a>
+<a href="{{ '/agb-seminare/' | relative_url }}" class="btn btn-outline" style="margin-left:1rem">Teilnahmebedingungen</a><a href="{{ '/assets/downloads/flyer-grundlagen-waermeuebertragung.pdf' | relative_url }}" class="btn btn-outline" style="margin-left:1rem">Flyer herunterladen</a>

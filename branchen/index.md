@@ -76,7 +76,7 @@ permalink: /branchen/
     <div class="cta-box" style="margin-top:3rem">
       <h2>Ihre Branche ist nicht dabei?</h2>
       <p>Thermische Fragestellungen sind vielfältig. Sprechen Sie uns an – wir prüfen gerne, ob und wie GetPEC helfen kann.</p>
-      <a href="/kontakt/" class="btn btn-primary">Kontakt aufnehmen</a>
+      <a href="{{ '/kontakt/' | relative_url }}" class="btn btn-primary">Kontakt aufnehmen</a>
     </div>
 
   </div>

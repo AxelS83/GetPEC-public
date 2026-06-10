@@ -70,7 +70,7 @@ breadcrumbs: true
     </div>
 
     <div class="info-box" style="margin-top:2rem">
-      <p><strong>Für Seminaranmeldungen</strong> nutzen Sie bitte das <a href="/anmeldung/">Anmeldeformular</a> auf der Seminarseite.</p>
+      <p><strong>Für Seminaranmeldungen</strong> nutzen Sie bitte das <a href="{{ '/anmeldung/' | relative_url }}">Anmeldeformular</a> auf der Seminarseite.</p>
     </div>
 
   </div>

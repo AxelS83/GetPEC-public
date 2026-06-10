@@ -17,7 +17,7 @@ breadcrumbs: true
         <li><strong>Format:</strong> Präsenz</li>
       </ul>
       <p style="margin:0.5rem 0 0">Präsenz: <strong>750 €</strong> &nbsp;|&nbsp; zzgl. gesetzlicher MwSt.</p>
-      <p style="margin-top:0.5rem;font-size:0.875rem"><a href="/kurse/grundlagen-waermeuebertragung/">Zur Kursbeschreibung</a></p>
+      <p style="margin-top:0.5rem;font-size:0.875rem"><a href="{{ '/kurse/grundlagen-waermeuebertragung/' | relative_url }}">Zur Kursbeschreibung</a></p>
     </div>
 
     {% include seminar-registration-form.html %}

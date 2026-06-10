@@ -22,4 +22,4 @@ Ihre Anmeldung ist bei uns eingegangen. GetPEC prüft Ihre Anmeldung und meldet 
 
 Bei Fragen wenden Sie sich jederzeit an [info@getpec.de](mailto:info@getpec.de) oder rufen Sie uns an: [+49 6151 384386 0](tel:+4961513843860)
 
-<a href="/" class="btn btn-outline" style="margin-top:1.5rem">Zurück zur Startseite</a>
+<a href="{{ '/' | relative_url }}" class="btn btn-outline" style="margin-top:1.5rem">Zurück zur Startseite</a>

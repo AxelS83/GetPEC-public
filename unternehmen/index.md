@@ -43,8 +43,8 @@ breadcrumbs: true
     </ul>
 
     <div style="margin-top:3rem;display:flex;flex-wrap:wrap;gap:1rem">
-      <a href="/team/" class="btn btn-primary">Team kennenlernen</a>
-      <a href="/kontakt/" class="btn btn-outline">Kontakt aufnehmen</a>
+      <a href="{{ '/team/' | relative_url }}" class="btn btn-primary">Team kennenlernen</a>
+      <a href="{{ '/kontakt/' | relative_url }}" class="btn btn-outline">Kontakt aufnehmen</a>
     </div>
 
   </div>

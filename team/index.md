@@ -40,8 +40,8 @@ breadcrumbs: true
     </div>
 
     <div style="margin-top:2rem">
-      <a href="/kontakt/" class="btn btn-primary">Kontakt aufnehmen</a>
-      <a href="/kurse/grundlagen-waermeuebertragung/" class="btn btn-outline" style="margin-left:1rem">Zum Seminar</a>
+      <a href="{{ '/kontakt/' | relative_url }}" class="btn btn-primary">Kontakt aufnehmen</a>
+      <a href="{{ '/kurse/grundlagen-waermeuebertragung/' | relative_url }}" class="btn btn-outline" style="margin-left:1rem">Zum Seminar</a>
     </div>
 
   </div>

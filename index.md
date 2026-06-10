@@ -62,7 +62,7 @@ permalink: /
       {% endfor %}
     </div>
     <div class="text-center mt-8">
-      <a href="/leistungen/" class="btn btn-outline">Alle Leistungen im Überblick</a>
+      <a href="{{ '/leistungen/' | relative_url }}" class="btn btn-outline">Alle Leistungen im Überblick</a>
     </div>
   </div>
 </section>
@@ -78,7 +78,7 @@ permalink: /
       {% endfor %}
     </div>
     <div class="text-center mt-8">
-      <a href="/projektbeispiele/" class="btn btn-outline">Alle Projektbeispiele</a>
+      <a href="{{ '/projektbeispiele/' | relative_url }}" class="btn btn-outline">Alle Projektbeispiele</a>
     </div>
   </div>
 </section>
@@ -98,7 +98,7 @@ permalink: /
       <div class="branche-item">Hochschulen</div>
     </div>
     <div class="text-center mt-8">
-      <a href="/branchen/" class="btn btn-outline">Branchen und Anwendungen</a>
+      <a href="{{ '/branchen/' | relative_url }}" class="btn btn-outline">Branchen und Anwendungen</a>
     </div>
   </div>
 </section>
@@ -113,9 +113,9 @@ permalink: /
         <p>In zwei Tagen vom Grundlagenwissen zur sicheren Anwendung – praxisnah verstehen, berechnen und anwenden.</p>
       </div>
       <div style="flex-shrink:0">
-        <a href="/kurse/grundlagen-waermeuebertragung/" class="btn btn-primary">Zum Kurs</a>
+        <a href="{{ '/kurse/grundlagen-waermeuebertragung/' | relative_url }}" class="btn btn-primary">Zum Kurs</a>
         &nbsp;
-        <a href="/anmeldung/" class="btn btn-secondary-outline">Jetzt anmelden</a>
+        <a href="{{ '/anmeldung/' | relative_url }}" class="btn btn-secondary-outline">Jetzt anmelden</a>
       </div>
     </div>
   </div>
@@ -147,7 +147,7 @@ permalink: /
       {% endfor %}
     </div>
     <div class="text-center mt-8">
-      <a href="/team/" class="btn btn-outline">Team kennenlernen</a>
+      <a href="{{ '/team/' | relative_url }}" class="btn btn-outline">Team kennenlernen</a>
     </div>
   </div>
 </section>
@@ -158,8 +158,8 @@ permalink: /
     <div class="cta-box">
       <h2>Haben Sie eine thermische Fragestellung?</h2>
       <p>Sprechen Sie uns an – wir analysieren Ihre Aufgabenstellung und machen Ihnen ein maßgeschneidertes Angebot.</p>
-      <a href="/kontakt/" class="btn btn-primary btn-large">Kontakt aufnehmen</a>
-      <a href="/leistungen/" class="btn btn-secondary-outline btn-large">Leistungen ansehen</a>
+      <a href="{{ '/kontakt/' | relative_url }}" class="btn btn-primary btn-large">Kontakt aufnehmen</a>
+      <a href="{{ '/leistungen/' | relative_url }}" class="btn btn-secondary-outline btn-large">Leistungen ansehen</a>
     </div>
   </div>
 </section>
