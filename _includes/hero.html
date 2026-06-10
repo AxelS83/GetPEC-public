@@ -1,0 +1,27 @@
+<section class="hero {% if page.hero_image %}hero--with-image{% else %}hero--plain{% endif %}"
+  {% if page.hero_image %}style="--hero-bg: url('{{ page.hero_image | relative_url }}')"{% endif %}
+  aria-label="Seitenintro">
+
+  {% if page.hero_image %}
+  <div class="hero-overlay" aria-hidden="true"></div>
+  {% endif %}
+
+  <div class="hero-content container">
+    <h1 class="hero-title">{{ page.hero_title | default: page.title }}</h1>
+
+    {% if page.hero_subtitle %}
+    <p class="hero-subtitle">{{ page.hero_subtitle }}</p>
+    {% endif %}
+
+    {% if page.hero_cta %}
+    <div class="hero-cta-group">
+      {% for cta in page.hero_cta %}
+      <a href="{{ cta.url | relative_url }}"
+         class="btn {% if cta.primary %}btn-primary{% else %}btn-secondary-outline{% endif %}">
+        {{ cta.label }}
+      </a>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </div>
+</section>

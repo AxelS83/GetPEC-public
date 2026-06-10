@@ -1,0 +1,17 @@
+<section class="customer-section" aria-labelledby="customers-heading">
+  <div class="container">
+    <h2 id="customers-heading" class="section-title">Referenzen</h2>
+    <p class="customer-description">{{ site.data.customers.description }}</p>
+
+    <div class="customer-grid" aria-label="Referenzunternehmen">
+      {% for company in site.data.customers.companies %}
+      <div class="customer-item">
+        <span class="customer-name">{{ company.name }}</span>
+        <span class="customer-sector">{{ company.sector }}</span>
+      </div>
+      {% endfor %}
+    </div>
+
+    <p class="customer-note">Alle Referenzen basieren auf abgeschlossenen Projekten und Beratungsmandaten. Logos werden aus rechtlichen Gründen nicht verwendet.</p>
+  </div>
+</section>

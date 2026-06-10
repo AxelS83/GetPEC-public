@@ -1,0 +1,47 @@
+- id: thermodynamische-beratung
+  title: Thermodynamische Beratung
+  slug: thermodynamische-beratung
+  short_description: "Neutrale Prozessanalyse, Auslegungsberechnungen, Machbarkeitsstudien und Expertengutachten für thermodynamische Systeme und Anlagen."
+  icon: "🔬"
+  image_placeholder: thermal-analysis-engineering.png
+  url: /leistungen/thermodynamische-beratung/
+
+- id: pruefstandsentwicklung
+  title: Prüfstandsentwicklung
+  slug: pruefstandsentwicklung
+  short_description: "Konzeption, Konstruktion und Inbetriebnahme kundenspezifischer Prüfstände für thermische und fluidische Untersuchungen."
+  icon: "⚙️"
+  image_placeholder: custom-test-bench-lab.png
+  url: /leistungen/pruefstandsentwicklung/
+
+- id: messtechnik-und-sensorintegration
+  title: Messtechnik und Sensorintegration
+  slug: messtechnik-und-sensorintegration
+  short_description: "Sensorauswahl, Kalibrierung, Miniaturisierung und Integration von Messsystemen für anspruchsvolle thermische Messkampagnen."
+  icon: "📡"
+  image_placeholder: sensor-integration-micro-thermocouple.png
+  url: /leistungen/messtechnik-und-sensorintegration/
+
+- id: waermeuebertragung-und-thermische-analyse
+  title: Wärmeübertragung und thermische Analyse
+  slug: waermeuebertragung-und-thermische-analyse
+  short_description: "Auslegung und Analyse von Wärmeübertragern, Siedeprozessen, Zweiphasenströmungen und thermischen Systemen."
+  icon: "🌡️"
+  image_placeholder: two-phase-heat-transfer-boiling.png
+  url: /leistungen/waermeuebertragung-und-thermische-analyse/
+
+- id: durchfuehrung-von-experimenten
+  title: Durchführung von Experimenten
+  slug: durchfuehrung-von-experimenten
+  short_description: "Auftragsmessungen und experimentelle Untersuchungen in unserem Haus – schnell umgesetzt, ausgewertet und fachlich bewertet."
+  icon: "🧪"
+  image_placeholder: contract-experimental-measurements.png
+  url: /leistungen/durchfuehrung-von-experimenten/
+
+- id: ir-thermographie
+  title: IR-Thermographie
+  slug: ir-thermographie
+  short_description: "Quantitative Infrarot-Thermographie für Wärmeübertragungsexperimente, Emissionsgrad-Kalibrierung und thermische Charakterisierung von Oberflächen."
+  icon: "📸"
+  image_placeholder: ir-thermography-boiling.png
+  url: /leistungen/ir-thermographie/

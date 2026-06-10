@@ -1,0 +1,12 @@
+<article class="service-card" aria-label="{{ include.service.title }}">
+  <div class="service-card-icon" aria-hidden="true">{{ include.service.icon }}</div>
+  <div class="service-card-body">
+    <h3 class="service-card-title">
+      <a href="{{ include.service.url | relative_url }}">{{ include.service.title }}</a>
+    </h3>
+    <p class="service-card-description">{{ include.service.short_description }}</p>
+    <a href="{{ include.service.url | relative_url }}" class="service-card-link" aria-label="Mehr zu {{ include.service.title }}">
+      Mehr erfahren <span aria-hidden="true">→</span>
+    </a>
+  </div>
+</article>

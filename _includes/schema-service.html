@@ -1,0 +1,20 @@
+{% if page.layout == 'service' %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "{{ page.title | strip_html | escape }}",
+  "description": "{{ page.description | strip_html | escape }}",
+  "provider": {
+    "@type": "Organization",
+    "name": "GetPEC mbH",
+    "url": "https://www.getpec.de"
+  },
+  "areaServed": {
+    "@type": "Country",
+    "name": "Deutschland"
+  },
+  "url": "{{ page.url | absolute_url }}"
+}
+</script>
+{% endif %}

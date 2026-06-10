@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+{% if page.hero_title or page.hero_image %}
+  {% include hero.html %}
+{% endif %}
+
+{% if page.breadcrumbs != false and page.url != '/' %}
+  {% include breadcrumbs.html %}
+{% endif %}
+
+<article class="page-content{% if page.page_class %} {{ page.page_class }}{% endif %}">
+  {% unless page.hero_title %}
+    <div class="page-header container{% if page.container_class %} {{ page.container_class }}{% endif %}">
+      <h1 class="page-title">{{ page.page_title | default: page.title }}</h1>
+      {% if page.description %}
+        <p class="page-lead">{{ page.description }}</p>
+      {% endif %}
+    </div>
+  {% endunless %}
+
+  <div class="page-body container{% if page.container_class %} {{ page.container_class }}{% endif %}">
+    {{ content }}
+  </div>
+</article>

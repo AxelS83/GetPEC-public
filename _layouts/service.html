@@ -1,0 +1,83 @@
+---
+layout: default
+---
+
+{% include hero.html %}
+{% include breadcrumbs.html %}
+
+<article class="service-page" itemscope itemtype="https://schema.org/Service">
+  <meta itemprop="provider" content="GetPEC mbH">
+  <meta itemprop="areaServed" content="DE">
+
+  <div class="container">
+
+    {% if page.summary %}
+    <section class="service-summary">
+      <p class="lead" itemprop="description">{{ page.summary }}</p>
+    </section>
+    {% endif %}
+
+    {% if page.fragestellungen %}
+    <section class="service-questions">
+      <h2>Typische Fragestellungen</h2>
+      <ul class="question-list">
+        {% for frage in page.fragestellungen %}
+        <li>{{ frage }}</li>
+        {% endfor %}
+      </ul>
+    </section>
+    {% endif %}
+
+    {{ content }}
+
+    {% if page.methoden %}
+    <section class="service-methods">
+      <h2>Methoden und Werkzeuge</h2>
+      <ul class="methods-list">
+        {% for methode in page.methoden %}
+        <li>{{ methode }}</li>
+        {% endfor %}
+      </ul>
+    </section>
+    {% endif %}
+
+    {% if page.ergebnisse %}
+    <section class="service-results">
+      <h2>Typische Ergebnisse</h2>
+      <ul class="results-list">
+        {% for ergebnis in page.ergebnisse %}
+        <li>{{ ergebnis }}</li>
+        {% endfor %}
+      </ul>
+    </section>
+    {% endif %}
+
+    {% if page.faq %}
+    <section class="service-faq">
+      <h2>Häufige Fragen</h2>
+      <div class="faq-list" itemscope itemtype="https://schema.org/FAQPage">
+        {% for item in page.faq %}
+        <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+          <h3 itemprop="name">{{ item.question }}</h3>
+          <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+            <p itemprop="text">{{ item.answer }}</p>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </section>
+    {% endif %}
+
+    <section class="service-cta">
+      <div class="cta-box">
+        <h2>Haben Sie eine ähnliche Fragestellung?</h2>
+        <p>Sprechen Sie uns an – wir besprechen Ihre technische Herausforderung gerne unverbindlich.</p>
+        <a href="/kontakt/" class="btn btn-primary">Kontakt aufnehmen</a>
+        <a href="/projektbeispiele/" class="btn btn-secondary">Projektbeispiele ansehen</a>
+      </div>
+    </section>
+
+  </div>
+</article>
+
+{% include schema-service.html %}

@@ -1,0 +1,222 @@
+<form class="seminar-form"
+      action="https://formspree.io/f/xeewkyov"
+      method="POST">
+
+  <!-- Honeypot Spam-Schutz -->
+  <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
+  <input type="hidden" name="_subject" value="Seminaranmeldung: Grundlagen der Wärmeübertragung">
+  <input type="hidden" name="_next" value="https://www.getpec.de/anmeldung/bestaetigung/">
+
+  <!-- Kursauswahl -->
+  <fieldset class="form-fieldset">
+    <legend class="form-legend">Veranstaltung</legend>
+    <div class="form-group">
+      <p class="form-info">
+        <strong>Grundlagen der Wärmeübertragung</strong><br>
+        16.–17. November 2026 &nbsp;|&nbsp; Darmstadt
+      </p>
+    </div>
+  </fieldset>
+
+  <!-- Persönliche Daten -->
+  <fieldset class="form-fieldset">
+    <legend class="form-legend">Persönliche Daten des Teilnehmenden</legend>
+
+    <div class="form-row">
+      <div class="form-group form-group--required">
+        <label for="vorname" class="form-label">Vorname <span class="required-marker" aria-hidden="true">*</span></label>
+        <input type="text"
+               id="vorname"
+               name="vorname"
+               class="form-input"
+               autocomplete="given-name"
+               required
+               aria-required="true">
+      </div>
+
+      <div class="form-group form-group--required">
+        <label for="nachname" class="form-label">Nachname <span class="required-marker" aria-hidden="true">*</span></label>
+        <input type="text"
+               id="nachname"
+               name="nachname"
+               class="form-input"
+               autocomplete="family-name"
+               required
+               aria-required="true">
+      </div>
+    </div>
+
+    <div class="form-row">
+      <div class="form-group form-group--required">
+        <label for="email" class="form-label">E-Mail-Adresse <span class="required-marker" aria-hidden="true">*</span></label>
+        <input type="email"
+               id="email"
+               name="email"
+               class="form-input"
+               autocomplete="email"
+               required
+               aria-required="true">
+      </div>
+
+      <div class="form-group">
+        <label for="telefon" class="form-label">Telefon</label>
+        <input type="tel"
+               id="telefon"
+               name="telefon"
+               class="form-input"
+               autocomplete="tel">
+      </div>
+    </div>
+  </fieldset>
+
+  <!-- Unternehmensdaten -->
+  <fieldset class="form-fieldset">
+    <legend class="form-legend">Unternehmen / Organisation</legend>
+
+    <div class="form-row">
+      <div class="form-group form-group--required">
+        <label for="firma" class="form-label">Firma / Institution <span class="required-marker" aria-hidden="true">*</span></label>
+        <input type="text"
+               id="firma"
+               name="firma"
+               class="form-input"
+               autocomplete="organization"
+               required
+               aria-required="true">
+      </div>
+
+      <div class="form-group">
+        <label for="abteilung" class="form-label">Abteilung</label>
+        <input type="text"
+               id="abteilung"
+               name="abteilung"
+               class="form-input"
+               autocomplete="organization-title">
+      </div>
+    </div>
+  </fieldset>
+
+  <!-- Rechnungsadresse -->
+  <fieldset class="form-fieldset">
+    <legend class="form-legend">Rechnungsadresse</legend>
+    <p class="form-hint">Die Rechnung wird mit der Anmeldebestätigung per E-Mail zugesendet.</p>
+
+    <div class="form-group form-group--required">
+      <label for="strasse" class="form-label">Straße und Hausnummer <span class="required-marker" aria-hidden="true">*</span></label>
+      <input type="text"
+             id="strasse"
+             name="strasse"
+             class="form-input"
+             autocomplete="street-address"
+             required
+             aria-required="true">
+    </div>
+
+    <div class="form-row form-row--address">
+      <div class="form-group form-group--required form-group--plz">
+        <label for="plz" class="form-label">PLZ <span class="required-marker" aria-hidden="true">*</span></label>
+        <input type="text"
+               id="plz"
+               name="plz"
+               class="form-input"
+               autocomplete="postal-code"
+               required
+               aria-required="true"
+               maxlength="10">
+      </div>
+
+      <div class="form-group form-group--required form-group--ort">
+        <label for="ort" class="form-label">Ort <span class="required-marker" aria-hidden="true">*</span></label>
+        <input type="text"
+               id="ort"
+               name="ort"
+               class="form-input"
+               autocomplete="address-level2"
+               required
+               aria-required="true">
+      </div>
+    </div>
+
+    <div class="form-group form-group--required">
+      <label for="land" class="form-label">Land <span class="required-marker" aria-hidden="true">*</span></label>
+      <select id="land"
+              name="land"
+              class="form-select"
+              autocomplete="country-name"
+              required
+              aria-required="true">
+        <option value="">Bitte wählen …</option>
+        <option value="Deutschland" selected>Deutschland</option>
+        <option value="Österreich">Österreich</option>
+        <option value="Schweiz">Schweiz</option>
+        <option value="Liechtenstein">Liechtenstein</option>
+        <option value="Luxemburg">Luxemburg</option>
+        <option value="Sonstiges">Sonstiges</option>
+      </select>
+    </div>
+  </fieldset>
+
+  <!-- Zusatzinformationen -->
+  <fieldset class="form-fieldset">
+    <legend class="form-legend">Zusatzinformationen (optional)</legend>
+
+    <div class="form-group">
+      <label for="bestellnummer" class="form-label">Bestellnummer / Referenz</label>
+      <input type="text"
+             id="bestellnummer"
+             name="bestellnummer"
+             class="form-input"
+             placeholder="z. B. Ihre interne Bestellnummer oder Kostenstelle">
+    </div>
+
+    <div class="form-group">
+      <label for="hinweise" class="form-label">Besondere Hinweise oder Fragen</label>
+      <textarea id="hinweise"
+                name="hinweise"
+                class="form-textarea"
+                rows="4"
+                placeholder="z. B. besondere Ernährungswünsche, technische Fragen, benötigte Hilfsmittel …"></textarea>
+    </div>
+  </fieldset>
+
+  <!-- Einwilligungen -->
+  <fieldset class="form-fieldset form-fieldset--legal">
+    <legend class="form-legend">Einwilligungen</legend>
+
+    <div class="form-group form-group--checkbox form-group--required">
+      <input type="checkbox"
+             id="agb_accepted"
+             name="agb_accepted"
+             class="form-checkbox"
+             value="ja"
+             required
+             aria-required="true">
+      <label for="agb_accepted" class="form-checkbox-label">
+        Ich habe die <a href="{{ '/agb-seminare/' | relative_url }}" target="_blank" rel="noopener">Allgemeinen Teilnahmebedingungen für Seminare</a> gelesen und akzeptiere sie. <span class="required-marker" aria-hidden="true">*</span>
+      </label>
+    </div>
+
+    <div class="form-group form-group--checkbox form-group--required">
+      <input type="checkbox"
+             id="datenschutz_accepted"
+             name="datenschutz_accepted"
+             class="form-checkbox"
+             value="ja"
+             required
+             aria-required="true">
+      <label for="datenschutz_accepted" class="form-checkbox-label">
+        Ich habe die <a href="{{ '/datenschutz/' | relative_url }}" target="_blank" rel="noopener">Datenschutzerklärung</a> gelesen und zur Kenntnis genommen. <span class="required-marker" aria-hidden="true">*</span>
+      </label>
+    </div>
+  </fieldset>
+
+  <div class="form-notice">
+    <p><strong>Hinweis:</strong> Die Anmeldung wird durch GetPEC manuell geprüft. Ein Vertrag kommt erst mit schriftlicher Bestätigung durch GetPEC zustande. Mit der Bestätigung erhalten Sie auch die Rechnung.</p>
+  </div>
+
+  <div class="form-submit">
+    <p class="required-note"><span class="required-marker" aria-hidden="true">*</span> Pflichtfeld</p>
+    <button type="submit" class="btn btn-primary btn-large">Verbindlich anmelden</button>
+  </div>
+
+</form>

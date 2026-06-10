@@ -1,0 +1,73 @@
+<footer class="site-footer" role="contentinfo">
+  <div class="footer-inner container">
+
+    <div class="footer-grid">
+
+      <div class="footer-about">
+        <a class="footer-logo" href="{{ '/' | relative_url }}" aria-label="GetPEC mbH – Zur Startseite">
+          <img class="footer-logo-image"
+               src="{{ '/assets/images/logos/Logo_dunklerBG_PNG_mitRand_trans.png' | relative_url }}"
+               alt="GetPEC Thermodynamics"
+               width="1905" height="768">
+        </a>
+        <p class="footer-tagline">Gesellschaft für thermodynamische Prozesse, Entwicklung und Consulting mbH</p>
+        <p class="footer-description">GetPEC entwickelt kundenspezifische Prüfstände, thermische Messtechnik und thermodynamische Analysen für Forschung, Entwicklung und industrielle Spezialanwendungen.</p>
+      </div>
+
+      <div class="footer-contact">
+        <h3 class="footer-heading">Kontakt</h3>
+        <address>
+          <p class="footer-address-label"><strong>Besucheradresse:</strong></p>
+          <p>GetPEC mbH<br>
+          Rößlerstraße 96<br>
+          64293 Darmstadt</p>
+
+          <p class="footer-address-label"><strong>Postanschrift:</strong></p>
+          <p>GetPEC mbH<br>
+          Viktoriastraße 69<br>
+          64293 Darmstadt</p>
+
+          <p class="footer-contact-links">
+            <a href="tel:+4961513843860" class="footer-link">+49 6151 384386 0</a><br>
+            <a href="mailto:info@getpec.de" class="footer-link">info@getpec.de</a>
+          </p>
+        </address>
+      </div>
+
+      <div class="footer-nav">
+        <h3 class="footer-heading">Leistungen</h3>
+        <ul class="footer-links">
+          <li><a href="{{ '/leistungen/thermodynamische-beratung/' | relative_url }}">Thermodynamische Beratung</a></li>
+          <li><a href="{{ '/leistungen/pruefstandsentwicklung/' | relative_url }}">Prüfstandsentwicklung</a></li>
+          <li><a href="{{ '/leistungen/messtechnik-und-sensorintegration/' | relative_url }}">Messtechnik und Sensorintegration</a></li>
+          <li><a href="{{ '/leistungen/waermeuebertragung-und-thermische-analyse/' | relative_url }}">Wärmeübertragung und thermische Analyse</a></li>
+          <li><a href="{{ '/leistungen/durchfuehrung-von-experimenten/' | relative_url }}">Durchführung von Experimenten</a></li>
+          <li><a href="{{ '/leistungen/ir-thermographie/' | relative_url }}">IR-Thermographie</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-more">
+        <h3 class="footer-heading">Unternehmen</h3>
+        <ul class="footer-links">
+          <li><a href="{{ '/unternehmen/' | relative_url }}">Über GetPEC</a></li>
+          <li><a href="{{ '/team/' | relative_url }}">Team</a></li>
+          <li><a href="{{ '/projektbeispiele/' | relative_url }}">Projektbeispiele</a></li>
+          <li><a href="{{ '/branchen/' | relative_url }}">Branchen</a></li>
+          <li><a href="{{ '/kurse/' | relative_url }}">Kurse</a></li>
+          <li><a href="{{ '/kontakt/' | relative_url }}">Kontakt</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <div class="footer-legal">
+        <a href="{{ '/impressum/' | relative_url }}">Impressum</a>
+        <a href="{{ '/datenschutz/' | relative_url }}">Datenschutz</a>
+        <a href="{{ '/agb-seminare/' | relative_url }}">AGB Seminare</a>
+      </div>
+      <p class="footer-copyright">&copy; {% assign current_year = 'now' | date: "%Y" %}{{ current_year }} GetPEC mbH – Alle Rechte vorbehalten</p>
+    </div>
+
+  </div>
+</footer>

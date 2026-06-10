@@ -1,0 +1,79 @@
+---
+layout: default
+---
+
+<div class="course-hero">
+  <div class="container">
+    <div class="course-hero-content">
+      <span class="course-badge">Intensivkurs</span>
+      <h1>{{ page.course_title }}</h1>
+      {% if page.course_subtitle %}
+        <p class="course-subtitle">{{ page.course_subtitle }}</p>
+      {% endif %}
+      {% if page.course_claim %}
+        <p class="course-claim">{{ page.course_claim }}</p>
+      {% endif %}
+      <div class="course-meta-grid">
+        <div class="course-meta-item">
+          <span class="meta-icon">📅</span>
+          <span class="meta-label">Termin</span>
+          <span class="meta-value">{{ page.course_date }}</span>
+        </div>
+        <div class="course-meta-item">
+          <span class="meta-icon">📍</span>
+          <span class="meta-label">Ort</span>
+          <span class="meta-value">{{ page.course_location }}</span>
+        </div>
+        <div class="course-meta-item">
+          <span class="meta-icon">💻</span>
+          <span class="meta-label">Format</span>
+          <span class="meta-value">{{ page.course_format }}</span>
+        </div>
+        <div class="course-meta-item">
+          <span class="meta-icon">⏱️</span>
+          <span class="meta-label">Dauer</span>
+          <span class="meta-value">{{ page.course_duration }}</span>
+        </div>
+      </div>
+      <div class="course-prices">
+        <div class="price-option">
+          <span class="price-format">Präsenz</span>
+          <span class="price-amount">{{ page.price_presence }}</span>
+        </div>
+        {% if page.price_online %}
+        <div class="price-option">
+          <span class="price-format">Online</span>
+          <span class="price-amount">{{ page.price_online }}</span>
+        </div>
+        {% endif %}
+        <p class="price-note">{{ page.price_note }}</p>
+      </div>
+      <a href="/anmeldung/" class="btn btn-primary btn-large">Jetzt anmelden</a>
+      {% if page.flyer_url %}
+      <a href="{{ page.flyer_url | relative_url }}" class="btn btn-secondary-outline btn-large" target="_blank" rel="noopener" style="margin-left:1rem">Flyer herunterladen</a>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+{% include breadcrumbs.html %}
+
+<article class="course-page">
+  <div class="container">
+    {{ content }}
+
+    <section class="course-cta-section">
+      <div class="cta-box">
+        <h2>Jetzt einen Platz sichern</h2>
+        <p>Termin: {{ page.course_date }} &nbsp;|&nbsp; Präsenz: {{ page.price_presence }}{% if page.price_online %} &nbsp;|&nbsp; Online: {{ page.price_online }}{% endif %}</p>
+        <p class="cta-note">{{ page.price_note }}</p>
+        <a href="/anmeldung/" class="btn btn-primary btn-large">Zur Anmeldung</a>
+        {% if page.flyer_url %}
+        <a href="{{ page.flyer_url | relative_url }}" class="btn btn-secondary-outline btn-large">Flyer herunterladen</a>
+        {% endif %}
+      </div>
+    </section>
+  </div>
+</article>
+
+{% include schema-course.html %}

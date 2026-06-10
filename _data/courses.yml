@@ -1,0 +1,73 @@
+- id: grundlagen-waermeuebertragung
+  title: Grundlagen der Wärmeübertragung
+  subtitle: "Grundlagen · Methoden · Praxis"
+  claim: "Verstehen · Berechnen · Anwenden"
+  date: "16.–17. November 2026"
+  location: "Darmstadt – Welcome Hotel"
+  format: "Präsenz"
+  duration: "2 Tage"
+  price_presence: "750 €"
+  price_note: "Preise zzgl. gesetzlicher Umsatzsteuer"
+  url: /kurse/grundlagen-waermeuebertragung/
+  description: >
+    In zwei Tagen vom Grundlagenwissen zur sicheren Anwendung: Intensivkurs für technische Fach- und
+    Führungskräfte, die in Entwicklung, Planung, Betrieb oder Optimierung mit thermischen Fragestellungen
+    zu tun haben und die Grundlagen der Wärmeübertragung praxisnah verstehen, berechnen und anwenden möchten.
+  target_audience:
+    - "Technische Fach- und Führungskräfte aus Entwicklung, Planung, Betrieb oder Optimierung"
+    - "Personen, die mit thermischen Fragestellungen zu tun haben"
+    - "Teilnehmende, die Wärmeübertragung praxisnah verstehen, berechnen und anwenden möchten"
+  not_suitable_for:
+    - "Wenn Sie eine Nusselt-Beziehung oder die Fouriersche Wärmeleitungsgleichung sicher anwenden können, ist dieser Kurs für Sie nicht geeignet."
+  learning_objectives:
+    - "Energieerhaltung und den 1. Hauptsatz auf Wärmeübertragungsaufgaben anwenden"
+    - "Wärmeleitung, Konvektion und Wärmestrahlung verstehen und berechnen"
+    - "Kombinierte Wärmeleitungs- und Konvektionsprobleme einordnen"
+    - "Dimensionslose Kennzahlen sinnvoll einsetzen"
+    - "Wärmeübertrager grundlegend bewerten"
+  topics:
+    - block: 1
+      title: "Einführung in die Energieerhaltung"
+      content: "Immer wieder der 1. Hauptsatz."
+    - block: 2
+      title: "Wärmeleitung"
+      content: "Das Fouriersche Wärmeleitungsgesetz in Theorie und Anwendung."
+    - block: 3
+      title: "Konvektion"
+      content: "Wärmeübertragung in freier und erzwungener Strömung."
+    - block: 4
+      title: "Kombination aus Wärmeleitung und Konvektion"
+      content: "Wie Leitung und Konvektion in realen Systemen zusammenwirken."
+    - block: 5
+      title: "Wärmestrahlung"
+      content: "Häufig vernachlässigt, aber manchmal doch sehr relevant."
+    - block: 6
+      title: "Dimensionslose Kennzahlen"
+      content: "Wozu das Ganze?"
+    - block: 7
+      title: "Wärmeübertrager"
+      content: "Was muss ich dazu wissen?"
+    - block: 8
+      title: "IT-Methoden"
+      content: "Wie berechne ich das am besten? Kann ich dazu KI nutzen?"
+    - block: 9
+      title: "Individuelle Fragen"
+      content: "Bringen Sie Ihre konkreten Anwendungsfragen als Praxisbeispiele mit."
+  lecturers:
+    - name: Dr. Axel Sielaff
+      role: Gründer GetPEC, Gruppenleiter TU Darmstadt
+    - name: Dr. Martin Freystein
+      role: Geschäftsführer GetPEC mbH
+    - name: Prof. Dr. Peter Stephan
+      role: Professor für Technische Thermodynamik, TU Darmstadt
+  faq:
+    - question: "Sind Vorkenntnisse erforderlich?"
+      answer: "Spezialkenntnisse in der Wärmeübertragung sind nicht notwendig. Der Kurs richtet sich an technische Fach- und Führungskräfte, die Wärmeübertragung praxisnah verstehen, berechnen und anwenden möchten."
+    - question: "Werden Seminarunterlagen bereitgestellt?"
+      answer: "Alle Teilnehmenden erhalten umfangreiche Seminarunterlagen in digitaler Form. Präsenzteilnehmende erhalten zusätzlich gedruckte Materialien."
+    - question: "Welche Software wird verwendet?"
+      answer: "Der Kurs behandelt auch IT-Methoden für Berechnungen und die Frage, wie KI sinnvoll bei Wärmeübertragungsaufgaben unterstützen kann."
+    - question: "Stellt GetPEC eine Teilnahmebescheinigung aus?"
+      answer: "Ja, alle Teilnehmenden erhalten nach dem Kurs eine Teilnahmebescheinigung von GetPEC mbH."
+    - question: "Was passiert, wenn ich kurzfristig absagen muss?"
+      answer: "Bitte beachten Sie unsere Stornobedingungen in den Allgemeinen Teilnahmebedingungen. Bei Nennung eines Ersatzteilnehmenden entstehen keine zusätzlichen Kosten."

@@ -1,0 +1,53 @@
+{% assign project_is_linked = false %}
+{% if include.project.has_detail_page != false and include.project.url %}
+  {% assign project_is_linked = true %}
+{% endif %}
+
+<article class="project-card{% unless project_is_linked %} project-card--static{% endunless %}" aria-label="{{ include.project.title }}">
+  <div class="project-card-image">
+    <img src="{{ '/assets/images/' | append: include.project.image_placeholder | relative_url }}"
+         alt="{{ include.project.title }}"
+         loading="lazy"
+         width="600" height="338">
+  </div>
+  <div class="project-card-body">
+    <div class="project-card-tags">
+      {% for comp in include.project.competences %}
+      <span class="project-tag">{{ comp }}</span>
+      {% endfor %}
+    </div>
+    <h3 class="project-card-title">
+      {% if project_is_linked %}
+      <a href="{{ include.project.url | relative_url }}">{{ include.project.title }}</a>
+      {% else %}
+      <span>{{ include.project.title }}</span>
+      {% endif %}
+    </h3>
+    <p class="project-card-description">{{ include.project.short_description }}</p>
+    {% if include.project.specs %}
+    <div class="project-card-specs-wrap">
+      <table class="tech-specs-table project-card-specs">
+        <thead>
+          <tr>
+            <th scope="col">Parameter</th>
+            <th scope="col">Spezifikation</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for spec in include.project.specs %}
+          <tr>
+            <th scope="row">{{ spec.parameter }}</th>
+            <td>{{ spec.value }}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+    {% endif %}
+    {% if project_is_linked %}
+    <a href="{{ include.project.url | relative_url }}" class="project-card-link" aria-label="Mehr zu {{ include.project.title }}">
+      Projektbeispiel ansehen <span aria-hidden="true">→</span>
+    </a>
+    {% endif %}
+  </div>
+</article>

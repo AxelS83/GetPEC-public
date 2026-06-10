@@ -1,0 +1,49 @@
+<header class="site-header" role="banner">
+  <div class="header-inner container">
+
+    <a class="site-logo" href="{{ '/' | relative_url }}" aria-label="GetPEC mbH – Zur Startseite">
+      <img class="logo-image"
+           src="{{ '/assets/images/logos/Logo_hellerBG_PNG_mitRand.png' | relative_url }}"
+           alt="GetPEC Thermodynamics"
+           width="1905" height="768">
+    </a>
+
+    <!-- CSS-only Hamburger-Menü -->
+    <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-hidden="true">
+    <label for="nav-toggle" class="nav-toggle-label" aria-label="Navigation öffnen/schließen">
+      <span class="hamburger-icon">
+        <span></span>
+        <span></span>
+        <span></span>
+      </span>
+    </label>
+
+    <nav class="site-nav" role="navigation" aria-label="Hauptnavigation">
+      <ul class="nav-list">
+        {% for item in site.data.navigation %}
+        <li class="nav-item {% if item.dropdown %}has-dropdown{% endif %} {% if page.url == item.url or page.url contains item.url and item.url != '/' %}active{% endif %}">
+          <a href="{{ item.url | relative_url }}"
+             {% if page.url == item.url or page.url contains item.url and item.url != '/' %}aria-current="page"{% endif %}
+             {% if item.dropdown %}aria-haspopup="true" aria-expanded="false"{% endif %}>
+            {{ item.title }}
+            {% if item.dropdown %}<span class="dropdown-arrow" aria-hidden="true">▾</span>{% endif %}
+          </a>
+          {% if item.dropdown %}
+          <ul class="dropdown-menu" role="menu">
+            {% for sub in item.dropdown %}
+            <li role="none">
+              <a href="{{ sub.url | relative_url }}" role="menuitem"
+                 {% if page.url == sub.url %}aria-current="page"{% endif %}>
+                {{ sub.title }}
+              </a>
+            </li>
+            {% endfor %}
+          </ul>
+          {% endif %}
+        </li>
+        {% endfor %}
+      </ul>
+    </nav>
+
+  </div>
+</header>

@@ -1,0 +1,36 @@
+---
+layout: default
+---
+
+{% include hero.html %}
+{% include breadcrumbs.html %}
+
+<article class="project-example-page">
+  <div class="container">
+
+    <div class="project-notice">
+      <p><strong>Hinweis:</strong> Bei den folgenden Inhalten handelt es sich um ein <strong>Projektbeispiel</strong> aus der Arbeit von GetPEC mbH. Es handelt sich um eine kundenspezifische Entwicklung, kein Standardprodukt.</p>
+    </div>
+
+    {% if page.competences %}
+    <div class="project-competences">
+      <span class="competences-label">Kompetenzen:</span>
+      {% for comp in page.competences %}
+      <span class="competence-tag">{{ comp }}</span>
+      {% endfor %}
+    </div>
+    {% endif %}
+
+    {{ content }}
+
+    <section class="project-cta">
+      <div class="cta-box">
+        <h2>Ähnliche Lösung für Ihr Projekt?</h2>
+        <p>GetPEC entwickelt kundenspezifische Lösungen für Ihre thermischen Messaufgaben und Prüfanforderungen. Sprechen Sie uns an.</p>
+        <a href="/kontakt/" class="btn btn-primary">Anfrage stellen</a>
+        <a href="/leistungen/" class="btn btn-secondary">Alle Leistungen</a>
+      </div>
+    </section>
+
+  </div>
+</article>

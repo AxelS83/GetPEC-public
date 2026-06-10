@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="161.91714mm"
+   height="68.090332mm"
+   viewBox="0 0 161.91715 68.090332"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="Logo_hellerBG_SVG_mitRand.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs2">
+    <style
+       id="style2257">.cls-1{fill:url(#linear-gradient);}.cls-2{fill:#4d4d4d;}.cls-3{fill:#04a6b7;}</style>
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       y2="-124.52"
+       x2="157.86"
+       y1="328.76001"
+       x1="65.199997"
+       id="linear-gradient">
+      <stop
+         id="stop2259"
+         stop-color="#04a6b7"
+         offset="0" />
+      <stop
+         id="stop2261"
+         stop-color="#06a9b5"
+         offset="0.25" />
+      <stop
+         id="stop2263"
+         stop-color="#0db3b0"
+         offset="0.45" />
+      <stop
+         id="stop2265"
+         stop-color="#18c5a6"
+         offset="0.64" />
+      <stop
+         id="stop2267"
+         stop-color="#28dd99"
+         offset="0.81" />
+      <stop
+         id="stop2269"
+         stop-color="#3dfc89"
+         offset="0.98" />
+      <stop
+         id="stop2271"
+         stop-color="#3fff87"
+         offset="1" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="349.72075"
+     inkscape:cy="659.57102"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1918"
+     inkscape:window-height="1528"
+     inkscape:window-x="2873"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:showpageshadow="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050">
+    <inkscape:page
+       x="-5.0735151e-21"
+       y="0"
+       width="161.91716"
+       height="68.090332"
+       id="page2"
+       margin="0"
+       bleed="0" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-19.124857,-11.954161)">
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.0949459;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect855"
+       width="161.82222"
+       height="67.995384"
+       x="19.172329"
+       y="12.001635" />
+    <g
+       data-name="Ebene 2"
+       id="Ebene_2"
+       transform="matrix(0.26458333,0,0,0.26458333,24.105754,17.022251)">
+      <path
+         style="fill:url(#linear-gradient)"
+         inkscape:connector-curvature="0"
+         class="cls-1"
+         d="m 241.54,8.76 c -10,-2.51 -19.25,3.67 -22.09,15.07 -0.52,2 0.08,4.33 -2.52,7.49 -2.27642,2.624574 -4.74309,5.07788 -7.38,7.34 -8.92,7.93 -22.94,16.49 -36.09,25.06 l -0.29,0.19 c -13.44,9.09 -25.09,17.18 -33.48,19.66 -2.98902,0.817796 -6.16177,0.653024 -9.05,-0.47 -3.34,-1 -8.62,-0.52 -9.9,-0.23 -1.89033,0.160801 -3.79192,-0.127007 -5.55,-0.84 -3.25988,-1.307653 -6.42138,-2.848302 -9.46,-4.61 C 95.33,71.58 81.28,61.91 68.89,52.29 68.790578,52.224766 68.696905,52.151165 68.61,52.07 55.61,42.35 43.45,32.13 39.44,26.52 37.696534,24.065678 36.703,21.15803 36.58,18.15 35.31,6.26 27.13,-1 16.53,0.10999997 6.4714583,1.1055614 -0.88905328,10.047813 0.06896126,20.11 c 0.92,10.32 9.77103874,17 21.47103874,16 2.09,-0.19 3.62,-0.69 6.61,0.44 9.66,3.64 29.32,17 46.1,30 l 0.25,0.18 c 6.33,4.72 12.5,9.57 17.5,13.94 5.4,4.63 9.61,8.75 11.67,11.64 1.5,2.1 3,3.78 2.76,5.92 -0.20346,1.45115 -0.23702,2.92108 -0.1,4.38 0.27487,2.14368 -0.0397,4.32173 -0.91,6.3 -1,3 -2.76,5.8 -5.11,9.32 -6.62,9.92 -17.84,23 -28.39,34.6 -0.08,0.09 -0.16,0.19 -0.24,0.27 C 61,165.31 49.88,176.64 44,180.2 c -2.592047,1.52781 -5.562362,2.29378 -8.57,2.21 -11.95,0.35 -19.8,7.94 -19.54,18.6 0.191438,10.13921 8.570974,18.20076 18.71,18 10.35,-0.12 17.71,-8.43 17.57,-20.17 -0.0813,-2.2677 0.278706,-4.52959 1.06,-6.66 4.32,-9.37 19.06,-27.82 33.36,-43.55 l 0.2,-0.23 C 92,142.4 97.27,136.67 102,132 c 5,-5 9.46,-8.9 12.51,-10.74 2.7,-1.63 3,-2.5 8.29,-2.33 2.14597,0.0207 4.28803,-0.18718 6.39,-0.62 l 0.52,-0.14 c 7.38,-2.05 12,-8.28 13.32,-16.12 0.35596,-1.74164 1.18657,-3.35093 2.4,-4.65 6.55,-8 25.43,-22.44 43.24,-34 l 0.26,-0.17 c 6.52,-4.45 13.11,-8.65 18.9,-12 6.14,-3.59 11.41,-6.22 14.81,-7.23 2.87501,-0.940658 5.97499,-0.940658 8.85,0 11.65,2.68 21.16,-2.68 23.6,-13.06 2.39419,-9.868303 -3.67683,-19.805955 -13.55,-22.18 z"
+         id="path2276"
+         sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccccccc" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:28.9278px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#4d4d4d;fill-opacity:0.956863;stroke:none;stroke-width:0.264583"
+       x="71.688904"
+       y="63.753387"
+       id="text2360"><tspan
+         sodipodi:role="line"
+         x="71.688904"
+         y="63.753387"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28.9278px;font-family:Gilroy-BoldItalic;-inkscape-font-specification:Gilroy-BoldItalic;fill:#4d4d4d;fill-opacity:0.956863;stroke-width:0.264583"
+         id="tspan2362">GetPEC</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:Gilroy-BoldItalic;-inkscape-font-specification:Gilroy-BoldItalic;letter-spacing:2.21192px;word-spacing:0px;fill:#04a6b7;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="79.090813"
+       y="74.964645"
+       id="text2457"><tspan
+         sodipodi:role="line"
+         id="tspan2455"
+         x="79.090813"
+         y="74.964645"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.76628px;font-family:Gilroy-SemiBoldItalic;-inkscape-font-specification:Gilroy-SemiBoldItalic;letter-spacing:2.21192px;fill:#04a6b7;fill-opacity:1;stroke-width:0.264583">THERMODYNAMICS</tspan></text>
+  </g>
+</svg>

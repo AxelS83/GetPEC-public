@@ -1,0 +1,49 @@
+# has_detail_page: true macht die Kachel klickbar und nutzt url.
+# has_detail_page: false rendert nur eine reine Kachel; url kann dann entfallen.
+
+- id: mikrothermoelemente
+  title: Mikrothermoelemente für lokale Temperaturmessungen
+  slug: mikrothermoelemente
+  short_description: "Kundenspezifische Entwicklung miniaturisierter Thermoelemente für schnelle lokale Temperaturmessungen in fluiddurchströmten Systemen und Phasenübergangsprozessen."
+  specs:
+    - parameter: Typ
+      value: Thermoelementpaarung (Konstantan, Gold)
+    - parameter: Abmessungen
+      value: Miniaturisiert, z. B. Drahtdurchmesser < 25 µm
+    - parameter: Ansprechzeit
+      value: Sehr schnell, typischerweise < 5ms
+    - parameter: Temperaturbereich
+      value: -30 - 150°C
+  competences:
+    - Sensorintegration
+    - Miniaturisierung
+    - Messtechnik
+  image_placeholder: Mikro-Thermoelement.png
+  has_detail_page: false
+  url: /projektbeispiele/mikrothermoelemente/
+
+- id: pruefstand-fluiddurchstroemte-bauteile
+  title: Prüfstand für fluiddurchströmte Bauteile
+  slug: pruefstand-fluiddurchstroemte-bauteile
+  short_description: "Vollautomatisierter Prüfstand zur thermischen und fluidischen Charakterisierung von Bauteilen mit Wasser-Glykol-Gemischen."
+  specs:
+    - parameter: Prüfmedium
+      value: Wasser-Glykol-Gemisch, bis 60 % Glykol
+    - parameter: Temperaturbereich
+      value: ca. −30 °C bis +90 °C
+    - parameter: Volumenstrom
+      value: ca. 2–20 l/min
+    - parameter: Druckdifferenz am Prüfling
+      value: 0–400 mbar
+    - parameter: Betrieb
+      value: Vollautomatisch
+    - parameter: Visualisierung / HMI
+      value: Integriert
+    - parameter: Datenerfassung
+      value: Kontinuierlich, automatisch gespeichert
+  competences:
+    - Prüfstandsentwicklung
+    - Automatisierung
+    - Datenerfassung
+  image_placeholder: Teststand.jpg
+  has_detail_page: false

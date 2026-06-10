@@ -1,0 +1,30 @@
+- title: Leistungen
+  url: /leistungen/
+  dropdown:
+    - title: Thermodynamische Beratung
+      url: /leistungen/thermodynamische-beratung/
+    - title: Prüfstandsentwicklung
+      url: /leistungen/pruefstandsentwicklung/
+    - title: Messtechnik und Sensorintegration
+      url: /leistungen/messtechnik-und-sensorintegration/
+    - title: Wärmeübertragung und thermische Analyse
+      url: /leistungen/waermeuebertragung-und-thermische-analyse/
+    - title: Durchführung von Experimenten
+      url: /leistungen/durchfuehrung-von-experimenten/
+    - title: IR-Thermographie
+      url: /leistungen/ir-thermographie/
+
+- title: Projektbeispiele
+  url: /projektbeispiele/
+
+- title: Branchen
+  url: /branchen/
+
+- title: Kurse
+  url: /kurse/
+
+- title: Unternehmen
+  url: /unternehmen/
+
+- title: Kontakt
+  url: /kontakt/

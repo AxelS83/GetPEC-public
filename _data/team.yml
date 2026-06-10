@@ -1,0 +1,33 @@
+- name: Dr. Axel Sielaff
+  role: Hauptgründer der GetPEC mbH &
+  role_detail: Gruppenleiter am Institut für Technische Thermodynamik der TU Darmstadt
+  description: "Dr. Axel Sielaff ist Gründer von GetPEC und Gruppenleiter am Institut für Technische Thermodynamik der TU Darmstadt. Seine Schwerpunkte liegen in der experimentellen Wärme- und Stoffübertragung, insbesondere bei Verdampfungs- und Kondensationsprozessen sowie der IR-Thermographie als quantitatives Messverfahren. Er bringt fundiertes wissenschaftliches Know-how direkt in die industrielle Projektarbeit ein."
+  image: team/sielaff_neu.jpg
+
+  linkedin: ""
+  xing: ""
+
+- name: Dr. Martin Freystein
+  role: Geschäftsführer der GetPEC mbH & 
+  role_detail: Bereichsleiter Wärme der Entega AG, Lehrbeauftragter an der UAS Frankfurt
+  description: "Dr. Martin Freystein ist Geschäftsführer von GetPEC mbH und Bereichsleiter Wärme der Entega AG. Zusätzlich ist er Lehrbeauftragter für Thermodynamik an der UAS Frankfurt. Er verfügt über breite Erfahrung in thermodynamischen Prozessen, Energiesystemen und der industriellen Umsetzung. Seine Expertise umfasst Wärmeversorgungssysteme, Effizienzoptimierung und das Projektmanagement komplexer technischer Vorhaben."
+  image: team/freystein_neu.jpg
+  linkedin: ""
+  xing: ""
+
+- name: Dr. Felix Brinckmann
+  role: Senior Engineer der GetPEC mbH & 
+  role_detail: Principal Engineer der Alcon GmbH
+  description: "Dr. Felix Brinckmann ist Senior Engineer bei GetPEC mit Schwerpunkten in der experimentellen Thermodynamik, Sensorintegration und Prüfstandsentwicklung. Er bringt tiefe Expertise in der Konzeption und Umsetzung kundenspezifischer Messlösungen mit und unterstützt Projekte von der ersten Konzeptphase bis zur Inbetriebnahme."
+  image: team/brickmann_neu.jpg
+  seminar_role: ""
+  linkedin: ""
+  xing: ""
+
+- name: Prof. Dr. Peter Stephan
+  role: Berater der GetPEC mbH &
+  role_detail: Professor für Technische Thermodynamik an der TU Darmstadt
+  description: "Prof. Dr. Peter Stephan ist Professor für Technische Thermodynamik an der TU Darmstadt und berät GetPEC in wissenschaftlichen und strategischen Fragestellungen. Er gilt als einer der führenden Experten für Wärme- und Stoffübertragung, insbesondere bei Phasenwechselprozessen, und ist Autor zahlreicher internationaler Fachpublikationen."
+  image: team/stephan_neu.jpg
+  linkedin: ""
+  xing: ""

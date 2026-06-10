@@ -1,0 +1,34 @@
+{% if page.layout == 'course' %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "{{ page.course_title | escape }}",
+  "description": "{{ page.description | strip_html | escape }}",
+  "provider": {
+    "@type": "Organization",
+    "name": "GetPEC mbH",
+    "url": "https://www.getpec.de",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Rößlerstraße 96",
+      "postalCode": "64293",
+      "addressLocality": "Darmstadt",
+      "addressCountry": "DE"
+    }
+  },
+  "url": "{{ page.url | absolute_url }}",
+  "courseMode": ["onsite"],
+  "inLanguage": "de",
+  "offers": [
+    {
+      "@type": "Offer",
+      "name": "Präsenz in Darmstadt",
+      "price": "750",
+      "priceCurrency": "EUR",
+      "url": "{{ '/anmeldung/' | absolute_url }}"
+    }
+  ]
+}
+</script>
+{% endif %}
