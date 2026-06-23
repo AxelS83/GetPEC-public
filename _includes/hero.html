@@ -17,7 +17,7 @@
     <div class="hero-cta-group">
       {% for cta in page.hero_cta %}
       <a href="{{ cta.url | relative_url }}"
-         class="btn {% if cta.primary %}btn-primary{% else %}btn-secondary-outline{% endif %}">
+         class="btn {% if cta.class %}{{ cta.class }}{% elsif cta.primary %}btn-primary{% else %}btn-secondary-outline{% endif %}">
         {{ cta.label }}
       </a>
       {% endfor %}

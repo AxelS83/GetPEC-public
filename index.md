@@ -9,9 +9,9 @@ hero_cta:
   - label: "Technische Fragestellung besprechen"
     url: "/kontakt/"
     primary: true
-  - label: "Seminar: Grundlagen der Wärmeübertragung"
+  - label: "Seminar: Grundlagen der Wärmeübertragung – November 2026"
     url: "/kurse/grundlagen-waermeuebertragung/"
-    primary: false
+    class: "btn-red"
 permalink: /
 ---
 
