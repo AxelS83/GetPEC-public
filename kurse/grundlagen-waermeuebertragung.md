@@ -159,7 +159,7 @@ Nach dem Kurs können Sie:
     <div class="team-card-body">
       <h3 class="team-card-name">Dr. Martin Freystein</h3>
       <p class="team-card-role">Geschäftsführer der GetPEC mbH & </p>
-      <p class="team-card-role-detail">Bereichsleiter Wärme der Entega AG, Lehrbeauftragter der FH Frankfurt</p>
+      <p class="team-card-role-detail">Bereichsleiter Wärme der Entega AG, Lehrbeauftragter der UAS Frankfurt</p>
     </div>
   </div>
 
