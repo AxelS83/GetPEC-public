@@ -4,6 +4,7 @@ title: "Anmeldung eingegangen | GetPEC mbH"
 page_title: "Ihre Anmeldung ist eingegangen"
 description: "Ihre Seminaranmeldung bei GetPEC mbH wurde erfolgreich übermittelt."
 permalink: /anmeldung/bestaetigung/
+no_index: true
 breadcrumbs: true
 container_class: container--narrow
 ---

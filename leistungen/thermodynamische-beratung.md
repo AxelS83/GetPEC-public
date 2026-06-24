@@ -1,7 +1,7 @@
 ---
 layout: service
-title: "Thermodynamische Beratung | GetPEC mbH"
-description: "Neutrale Prozessanalyse, Auslegungsberechnungen, Machbarkeitsstudien und Expertengutachten für thermodynamische Systeme – von Wärmeversorgung bis Kältetechnik."
+title: "Thermodynamische Beratung Darmstadt | GetPEC mbH"
+description: "Thermodynamisches Consulting in Darmstadt: Prozessanalyse, Auslegungsberechnungen, Machbarkeitsstudien und Expertengutachten – Wärmeversorgung, Kältetechnik, Wärmepumpen."
 hero_title: "Thermodynamische Beratung"
 hero_subtitle: "Neutrale Prozessanalyse, Auslegungsberechnungen und Expertengutachten – GetPEC unterstützt bei komplexen thermodynamischen Fragestellungen in Industrie und Forschung."
 hero_image: "/assets/images/thermal-analysis-engineering.png"

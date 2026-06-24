@@ -6,6 +6,7 @@ lang: de
 author:
   name: GetPEC mbH
   email: info@getpec.de
+image: /assets/images/logos/Logo_hellerBG_PNG_mitRand.png
 
 plugins:
   - jekyll-seo-tag

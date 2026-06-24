@@ -1,7 +1,7 @@
 ---
 layout: service
-title: "IR-Thermographie | GetPEC mbH"
-description: "Quantitative Infrarot-Thermographie für Wärmeübertragungsexperimente, Emissionsgrad-Kalibrierung und thermische Charakterisierung von Oberflächen."
+title: "IR-Thermographie und Infrarot-Messungen Darmstadt | GetPEC mbH"
+description: "Quantitative IR-Thermographie und Infrarot-Messungen in Darmstadt: Temperaturfelder, Emissionsgrad-Kalibrierung und lokale Wärmeübergangskoeffizienten."
 hero_title: "IR-Thermographie"
 hero_subtitle: "Quantitative Infrarot-Thermographie als wissenschaftliches Messverfahren – präzise Temperaturfelder, Emissionsgrad-Kalibrierung und lokale Wärmeübergangskoeffizienten."
 hero_image: "/assets/images/ir-thermography-boiling.png"

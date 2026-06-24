@@ -8,7 +8,7 @@
   "provider": {
     "@type": "Organization",
     "name": "GetPEC mbH",
-    "url": "https://www.getpec.de"
+    "url": "https://getpec.de"
   },
   "areaServed": {
     "@type": "Country",
@@ -17,4 +17,25 @@
   "url": "{{ page.url | absolute_url }}"
 }
 </script>
+
+{% if page.faq %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {% for item in page.faq %}
+    {
+      "@type": "Question",
+      "name": "{{ item.question | escape }}",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "{{ item.answer | escape }}"
+      }
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ]
+}
+</script>
+{% endif %}
 {% endif %}

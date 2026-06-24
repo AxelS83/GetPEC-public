@@ -1,7 +1,7 @@
 ---
 layout: service
-title: "Messtechnik und Sensorintegration | GetPEC mbH"
-description: "Sensorauswahl, Kalibrierung, Miniaturisierung und Integration thermischer Messsysteme für anspruchsvolle Messkampagnen in Forschung und industrieller Entwicklung."
+title: "Thermische Messtechnik und Sensorintegration Darmstadt | GetPEC mbH"
+description: "Thermische Messtechnik in Darmstadt: Sensorauswahl, Kalibrierung, Miniaturisierung und Integration für anspruchsvolle Messkampagnen in Forschung und industrieller Entwicklung."
 hero_title: "Messtechnik und Sensorintegration"
 hero_subtitle: "Präzise Temperatur-, Druck- und Strömungsmessung – von der Sensorauswahl bis zur vollständig integrierten Messkette für Ihre spezifische Aufgabenstellung."
 hero_image: "/assets/images/sensor-integration-micro-thermocouple.png"

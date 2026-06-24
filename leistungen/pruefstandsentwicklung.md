@@ -1,7 +1,7 @@
 ---
 layout: service
-title: "Prüfstandsentwicklung | GetPEC mbH"
-description: "Konzeption, Konstruktion und Inbetriebnahme kundenspezifischer Prüfstände für thermische und fluidische Untersuchungen – vollautomatisiert, kompakt und betriebsbereit."
+title: "Prüfstandsentwicklung Darmstadt | GetPEC mbH"
+description: "Kundenspezifische Prüfstände und Versuchsstände in Darmstadt: Konzeption, Konstruktion und Inbetriebnahme für thermische und fluidische Untersuchungen – vollautomatisiert."
 hero_title: "Prüfstandsentwicklung"
 hero_subtitle: "Kundenspezifische Prüfstände für thermische und fluidische Untersuchungen – von der ersten Konzeptskizze bis zur fertigen Anlage mit Automatisierung und Datenerfassung."
 hero_image: "/assets/images/custom-test-bench-lab.png"

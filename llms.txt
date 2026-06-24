@@ -1,0 +1,30 @@
+# GetPEC mbH
+
+> Gesellschaft für thermodynamische Prozesse, Entwicklung und Consulting mbH – spezialisiert auf thermische Messtechnik, Prüfstandsentwicklung, Versuchsstände und thermodynamische Beratung. Gegründet 2016 aus dem Institut für Technische Thermodynamik der TU Darmstadt. Standort: Darmstadt, Deutschland.
+
+## Leistungen
+
+- [Thermodynamische Beratung](https://getpec.de/leistungen/thermodynamische-beratung/): Neutrale Prozessanalyse, Auslegungsberechnungen, Machbarkeitsstudien und Expertengutachten für thermodynamische Systeme – Wärmeversorgung, Kältetechnik, Wärmepumpen, Abwärmenutzung.
+- [Prüfstandsentwicklung](https://getpec.de/leistungen/pruefstandsentwicklung/): Konzeption, Konstruktion und Inbetriebnahme kundenspezifischer Prüfstände und Versuchsstände für thermische und fluidische Untersuchungen – vollautomatisiert, mit Sensorik, HMI und Dokumentation.
+- [Thermische Messtechnik und Sensorintegration](https://getpec.de/leistungen/messtechnik-und-sensorintegration/): Sensorauswahl, Kalibrierung, Miniaturisierung (Mikro-Thermoelemente <25 µm) und Integration thermischer Messsysteme für Forschung und industrielle Entwicklung.
+- [Wärmeübertragung und thermische Analyse](https://getpec.de/leistungen/waermeuebertragung-und-thermische-analyse/): Auslegung und Analyse von Wärmeübertragern, Siedeprozessen (Blasensieden, CHF), Zweiphasenströmungen und thermischen Systemen – analytisch und numerisch (OpenFOAM).
+- [Auftragsmessungen und externe Messungen](https://getpec.de/leistungen/durchfuehrung-von-experimenten/): Planung, Durchführung und Auswertung thermischer Messkampagnen im eigenen Haus oder bei Kooperationspartnern – ohne eigenen Prüfstand beim Kunden erforderlich.
+- [IR-Thermographie und Infrarot-Messungen](https://getpec.de/leistungen/ir-thermographie/): Quantitative Infrarot-Thermographie für Wärmeübertragungsexperimente, Emissionsgrad-Kalibrierung und hochaufgelöste lokale Wärmeübergangskoeffizienten.
+
+## Kurse und Seminare
+
+- [Grundlagen der Wärmeübertragung](https://getpec.de/kurse/grundlagen-waermeuebertragung/): Intensivkurs für Ingenieure und Wissenschaftler, 2 Tage Präsenz in Darmstadt (November 2026). Themen: Wärmeleitung, Konvektion, Strahlung, Wärmeübertrager, Phasenwechsel.
+
+## Unternehmen
+
+GetPEC mbH wurde 2016 aus dem Institut für Technische Thermodynamik der TU Darmstadt heraus gegründet. Die Geschäftsführer Dr. Axel Sielaff (Gruppenleiter TU Darmstadt) und Dr. Martin Freystein (Bereichsleiter Wärme, ENTEGA AG) verbinden wissenschaftliche Forschung mit industrieller Praxis. Prof. Dr. Peter Stephan berät das Unternehmen wissenschaftlich.
+
+Spezialisierungen: Thermodynamik, Wärmeübertragung, Messtechnik, IR-Thermographie, Prüfstandsbau, Versuchsstände, Siedeprozesse, Zweiphasenströmung, Infrarot-Messungen, thermisches Consulting, Auftragsmessungen, externe Messungen.
+
+## Kontakt
+
+- Website: https://getpec.de
+- E-Mail: info@getpec.de
+- Telefon: +49 6151 384386 0
+- Besucheradresse: Rößlerstraße 96, 64293 Darmstadt
+- Postanschrift: Viktoriastraße 69, 64293 Darmstadt

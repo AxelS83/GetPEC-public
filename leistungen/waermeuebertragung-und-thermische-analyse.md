@@ -1,7 +1,7 @@
 ---
 layout: service
-title: "Wärmeübertragung und thermische Analyse | GetPEC mbH"
-description: "Auslegung und Analyse von Wärmeübertragern, Siedeprozessen, Zweiphasenströmungen und thermischen Systemen – wissenschaftlich fundiert und praxisnah."
+title: "Wärmeübertragung und thermische Analyse Darmstadt | GetPEC mbH"
+description: "Wärmeübertragung Beratung in Darmstadt: Auslegung und Analyse von Wärmeübertragern, Siedeprozessen, Zweiphasenströmungen und thermischen Systemen – wissenschaftlich fundiert."
 hero_title: "Wärmeübertragung und thermische Analyse"
 hero_subtitle: "Fundierte Analyse und Auslegung thermischer Systeme: Wärmeübertrager, Siedeprozesse, Zweiphasenströmungen und thermische Systemcharakterisierung."
 hero_image: "/assets/images/two-phase-heat-transfer-boiling.png"

@@ -1,7 +1,7 @@
 ---
 layout: service
-title: "Durchführung von Experimenten | GetPEC mbH"
-description: "Auftragsmessungen und experimentelle Untersuchungen: Planung, Aufbau, Durchführung, Auswertung und fachliche Bewertung thermischer Messkampagnen."
+title: "Auftragsmessungen und externe Messungen Darmstadt | GetPEC mbH"
+description: "Externe thermische Messungen und Auftragsmessungen in Darmstadt: Planung, Durchführung, Auswertung und fachliche Bewertung thermischer Messkampagnen."
 hero_title: "Durchführung von Experimenten"
 hero_subtitle: "Auftragsmessungen im eigenen Haus: Wir planen, messen, werten aus und bewerten thermische Fragestellungen schnell und unkompliziert mit passenden Kooperationspartnern."
 hero_image: "/assets/images/contract-experimental-measurements.png"
