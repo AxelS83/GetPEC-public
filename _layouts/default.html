@@ -8,8 +8,6 @@
   {% seo %}
 
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
-  <link rel="canonical" href="{{ page.url | absolute_url }}">
-
   <!-- Favicon -->
   <link rel="icon" type="image/svg+xml" href="{{ '/assets/images/favicon.svg' | relative_url }}">
   <link rel="icon" type="image/png" href="{{ '/assets/images/favicon.png' | relative_url }}">
@@ -30,13 +28,5 @@
   {% include footer.html %}
 
   {% include schema-organization.html %}
-
-  {% if page.layout == 'service' %}
-    {% include schema-service.html %}
-  {% endif %}
-
-  {% if page.layout == 'course' %}
-    {% include schema-course.html %}
-  {% endif %}
 </body>
 </html>

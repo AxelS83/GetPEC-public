@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.getpec.de/sitemap.xml
+Sitemap: https://getpec.de/sitemap.xml
