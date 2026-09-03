@@ -1,19 +1,24 @@
 ---
 layout: course
 title: "Grundlagen der Wärmeübertragung – Intensivkurs | GetPEC"
-description: "Zweitägiger Intensivkurs Grundlagen der Wärmeübertragung: In zwei Tagen vom Grundlagenwissen zur sicheren Anwendung – Präsenz in Darmstadt."
+description: "Zweitägiger Intensivkurs Grundlagen der Wärmeübertragung: In zwei Tagen vom Grundlagenwissen zur sicheren Anwendung – Präsenz in Darmstadt/Frankfurt. Termin: September 2027."
 course_title: "Grundlagen der Wärmeübertragung"
 course_subtitle: "Grundlagen · Methoden · Praxis"
 course_claim: "Verstehen · Berechnen · Anwenden"
-course_date: "16.–17. November 2026"
-course_location: "Darmstadt – Welcome Hotel"
+course_date: "September 2027 (genaue Termine folgen)"
+course_location: "Darmstadt / Frankfurt"
 course_format: "Präsenz"
 course_duration: "2 Tage"
-price_presence: "750 €"
+price_presence: "noch offen"
 price_note: "Preise zzgl. gesetzlicher Umsatzsteuer"
 flyer_url: "/assets/downloads/flyer-grundlagen-waermeuebertragung.pdf"
 permalink: /kurse/grundlagen-waermeuebertragung/
+registration_open: false
 ---
+
+<div class="info-box">
+  <p><strong>Hinweis:</strong> Eine Anmeldung für den Kurs in 2026 ist nicht mehr möglich. Der nächste Termin ist für <strong>September 2027</strong> geplant, die genauen Tage werden noch bekannt gegeben. Eine Anmeldung ist derzeit noch nicht möglich – sie wird freigeschaltet, sobald Termin und Kosten final feststehen.</p>
+</div>
 
 ## Kursbeschreibung
 
@@ -27,15 +32,17 @@ Der Kurs richtet sich an technische Fach- und Führungskräfte, die in Entwicklu
 
 | | |
 |---|---|
-| **Termin** | 16.–17. November 2026 |
+| **Termin** | September 2027 (genaue Termine folgen) |
+| **Ort** | Darmstadt / Frankfurt |
 | **Format** | Präsenz |
 | **Dauer** | 2 Tage |
-| **Kosten** | 750 € zzgl. MwSt. |
+| **Kosten** | noch offen |
 | **Abschluss** | Inklusive Zertifikat zum Kursabschluss |
 {: .tech-specs-table}
 
 <a href="{{ '/assets/downloads/flyer-grundlagen-waermeuebertragung.pdf' | relative_url }}" class="btn btn-outline">Flyer als PDF herunterladen</a>
-<a href="{{ '/anmeldung/' | relative_url }}" class="btn btn-primary" style="margin-left:1rem">Jetzt anmelden</a>
+<button class="btn btn-primary" style="margin-left:1rem" disabled aria-disabled="true">Anmeldung aktuell nicht möglich</button>
+<p class="form-hint">Die Anmeldung wird freigeschaltet, sobald Termin und Kosten final feststehen.</p>
 
 ---
 
@@ -204,9 +211,12 @@ Ja. Sprechen Sie uns an – wir führen diesen und andere Kurse auch als maßges
 
 ---
 
-## Jetzt anmelden
+## Anmeldung
 
-Sichern Sie sich Ihren Platz für den **16.–17. November 2026** – als Präsenzteilnahme in Darmstadt.
+Der nächste Termin ist für **September 2027** geplant (genaue Tage folgen), als Präsenzteilnahme in Darmstadt/Frankfurt. Eine Anmeldung ist aktuell noch nicht möglich – wir schalten sie frei, sobald Termin und Kosten final feststehen.
 
-<a href="{{ '/anmeldung/' | relative_url }}" class="btn btn-primary btn-large">Zur Anmeldung</a>
-<a href="{{ '/agb-seminare/' | relative_url }}" class="btn btn-outline" style="margin-left:1rem">Teilnahmebedingungen</a><a href="{{ '/assets/downloads/flyer-grundlagen-waermeuebertragung.pdf' | relative_url }}" class="btn btn-outline" style="margin-left:1rem">Flyer herunterladen</a>
+<div class="btn-row">
+  <button class="btn btn-primary btn-large" disabled aria-disabled="true">Anmeldung aktuell nicht möglich</button>
+  <a href="{{ '/agb-seminare/' | relative_url }}" class="btn btn-outline">Teilnahmebedingungen</a>
+  <a href="{{ '/assets/downloads/flyer-grundlagen-waermeuebertragung.pdf' | relative_url }}" class="btn btn-outline">Flyer herunterladen</a>
+</div>

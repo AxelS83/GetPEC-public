@@ -34,24 +34,33 @@ layout: default
           <span class="meta-label">Dauer</span>
           <span class="meta-value">{{ page.course_duration }}</span>
         </div>
-      </div>
-      <div class="course-prices">
-        <div class="price-option">
-          <span class="price-format">Präsenz</span>
-          <span class="price-amount">{{ page.price_presence }}</span>
+        <div class="course-meta-item">
+          <span class="meta-icon">💶</span>
+          <span class="meta-label">Preis{% if page.price_online %} (Präsenz){% endif %}</span>
+          <span class="meta-value">{{ page.price_presence }}</span>
         </div>
         {% if page.price_online %}
-        <div class="price-option">
-          <span class="price-format">Online</span>
-          <span class="price-amount">{{ page.price_online }}</span>
+        <div class="course-meta-item">
+          <span class="meta-icon">💶</span>
+          <span class="meta-label">Preis (Online)</span>
+          <span class="meta-value">{{ page.price_online }}</span>
         </div>
         {% endif %}
-        <p class="price-note">{{ page.price_note }}</p>
       </div>
+      {% if page.price_note %}
+      <p class="price-note">{{ page.price_note }}</p>
+      {% endif %}
+      {% if page.registration_open %}
       <a href="{{ '/anmeldung/' | relative_url }}" class="btn btn-primary btn-large">Jetzt anmelden</a>
+      {% else %}
+      <button class="btn btn-primary btn-large" disabled aria-disabled="true">Anmeldung aktuell nicht möglich</button>
+      {% endif %}
       {% if page.flyer_url %}
       <a href="{{ page.flyer_url | relative_url }}" class="btn btn-secondary-outline btn-large" target="_blank" rel="noopener" style="margin-left:1rem">Flyer herunterladen</a>
       {% endif %}
+      {% unless page.registration_open %}
+      <p class="price-note" style="margin-top:0.75rem">Die Anmeldung wird freigeschaltet, sobald Termin und Kosten final feststehen.</p>
+      {% endunless %}
     </div>
   </div>
 </div>
@@ -64,10 +73,19 @@ layout: default
 
     <section class="course-cta-section">
       <div class="cta-box">
+        {% if page.registration_open %}
         <h2>Jetzt einen Platz sichern</h2>
-        <p>Termin: {{ page.course_date }} &nbsp;|&nbsp; Präsenz: {{ page.price_presence }}{% if page.price_online %} &nbsp;|&nbsp; Online: {{ page.price_online }}{% endif %}</p>
+        {% else %}
+        <h2>Anmeldung aktuell nicht möglich</h2>
+        {% endif %}
+        <p>Termin: {{ page.course_date }} &nbsp;|&nbsp; Format: {{ page.course_format }} &nbsp;|&nbsp; Preis{% if page.price_online %} (Präsenz){% endif %}: {{ page.price_presence }}{% if page.price_online %} &nbsp;|&nbsp; Preis (Online): {{ page.price_online }}{% endif %}</p>
         <p class="cta-note">{{ page.price_note }}</p>
+        {% if page.registration_open %}
         <a href="{{ '/anmeldung/' | relative_url }}" class="btn btn-primary btn-large">Zur Anmeldung</a>
+        {% else %}
+        <button class="btn btn-primary btn-large" disabled aria-disabled="true">Anmeldung aktuell nicht möglich</button>
+        <p class="cta-note">Die Anmeldung wird freigeschaltet, sobald Termin und Kosten final feststehen.</p>
+        {% endif %}
         {% if page.flyer_url %}
         <a href="{{ page.flyer_url | relative_url }}" class="btn btn-secondary-outline btn-large">Flyer herunterladen</a>
         {% endif %}

@@ -23,9 +23,9 @@
   "offers": [
     {
       "@type": "Offer",
-      "name": "Präsenz in Darmstadt",
-      "price": "750",
+      "name": "Präsenz",
       "priceCurrency": "EUR",
+      "availability": "{% if page.registration_open %}https://schema.org/InStock{% else %}https://schema.org/PreOrder{% endif %}",
       "url": "{{ '/anmeldung/' | absolute_url }}"
     }
   ]

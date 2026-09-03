@@ -26,7 +26,13 @@ breadcrumbs: true
                width="480" height="360">
         </div>
         <div class="team-card-body">
-          <h2 class="team-card-name">{{ member.name }}</h2>
+          <h2 class="team-card-name">
+            {% if member.profile_url %}
+              <a href="{{ member.profile_url | relative_url }}">{{ member.name }}</a>
+            {% else %}
+              {{ member.name }}
+            {% endif %}
+          </h2>
           <p class="team-card-role">{{ member.role }}</p>
           <p class="team-card-role-detail">{{ member.role_detail }}</p>
           <p class="team-card-description">{{ member.description }}</p>

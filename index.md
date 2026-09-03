@@ -9,7 +9,7 @@ hero_cta:
   - label: "Technische Fragestellung besprechen"
     url: "/kontakt/"
     primary: true
-  - label: "Seminar: Grundlagen der Wärmeübertragung – November 2026"
+  - label: "Seminar: Grundlagen der Wärmeübertragung"
     url: "/kurse/grundlagen-waermeuebertragung/"
     class: "btn-red"
 permalink: /
@@ -109,13 +109,14 @@ permalink: /
     <div class="seminar-banner-inner">
       <div>
         <h2>Seminar: Grundlagen der Wärmeübertragung</h2>
-        <p>16.–17. November 2026 &nbsp;|&nbsp; Darmstadt – Welcome Hotel &nbsp;|&nbsp; Präsenz 750 € zzgl. MwSt.</p>
+        <p>September 2027 (genaue Termine folgen) &nbsp;|&nbsp; Darmstadt / Frankfurt &nbsp;|&nbsp; Präsenz, Kosten noch offen</p>
         <p>In zwei Tagen vom Grundlagenwissen zur sicheren Anwendung – praxisnah verstehen, berechnen und anwenden.</p>
+        <p><strong>Hinweis:</strong> Eine Anmeldung ist aktuell noch nicht möglich und wird freigeschaltet, sobald Termin und Kosten final feststehen.</p>
       </div>
       <div style="flex-shrink:0">
         <a href="{{ '/kurse/grundlagen-waermeuebertragung/' | relative_url }}" class="btn btn-primary">Zum Kurs</a>
         &nbsp;
-        <a href="{{ '/anmeldung/' | relative_url }}" class="btn btn-secondary-outline">Jetzt anmelden</a>
+        <button class="btn btn-secondary-outline" disabled aria-disabled="true">Anmeldung aktuell nicht möglich</button>
       </div>
     </div>
   </div>
@@ -139,7 +140,13 @@ permalink: /
                width="480" height="360">
         </div>
         <div class="team-card-body">
-          <h3 class="team-card-name">{{ member.name }}</h3>
+          <h3 class="team-card-name">
+            {% if member.profile_url %}
+              <a href="{{ member.profile_url | relative_url }}">{{ member.name }}</a>
+            {% else %}
+              {{ member.name }}
+            {% endif %}
+          </h3>
           <p class="team-card-role">{{ member.role }}</p>
           <p class="team-card-role-detail">{{ member.role_detail }}</p>
         </div>

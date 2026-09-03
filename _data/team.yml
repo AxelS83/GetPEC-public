@@ -21,8 +21,9 @@
   description: "Dr. Felix Brinckmann ist Senior Engineer bei GetPEC mit Schwerpunkten in der experimentellen Thermodynamik, Sensorintegration und Prüfstandsentwicklung. Er bringt tiefe Expertise in der Konzeption und Umsetzung kundenspezifischer Messlösungen mit und unterstützt Projekte von der ersten Konzeptphase bis zur Inbetriebnahme."
   image: team/brickmann_neu.jpg
   seminar_role: ""
-  linkedin: ""
-  xing: ""
+  profile_url: /team/felix-brinckmann/
+  linkedin: "https://de.linkedin.com/in/felix-brinckmann-98b091b2"
+  xing: "https://www.xing.com/profile/Felix_Brinckmann"
 
 - name: Prof. Dr. Peter Stephan
   role: Berater der GetPEC mbH &
